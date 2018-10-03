@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-sep-2018, 14:05:09
+    Author     : hpp
+*/
+
+.barranav{
+    background: linear-gradient(#4CAF50,#212121 );
+}
+.style-footer{
+    background: linear-gradient(#212121, #4CAF50 );
+    text-align: center;
+}
+.registro{
+    text-align: center;
+}
+.contenedor{
+    margin-top: 10px;
+}
+.logoregistro{
+    box-shadow: 5px 5px #4CAF50;
+    border-radius: 30px;
+}
+.btncolorboton{
+    background: #4CAF50;
+}
