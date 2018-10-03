@@ -26,30 +26,30 @@ and open the template in the editor.
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Login</a>
+                                    <a class="nav-link" href="QuienesSomos.php">Quienes Somos</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Servicios
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Nutrición</a>
-                                        <a class="dropdown-item" href="#">Fitness</a>
+                                        <a class="dropdown-item" href="Nutricion.php">Nutrición</a>
+                                        <a class="dropdown-item" href="Fitness.php">Fitness</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Bienestar</a>
+                                        <a class="dropdown-item" href="Bienestar.php">Bienestar</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">Quienes Somos</a>
+                                    <a class="nav-link " href="Login.php">Login</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">Registro</a>
+                                    <a class="nav-link " href="Registro.php">Registro</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">Blog</a>
+                                    <a class="nav-link " href="Blog.php">Blog</a>
                                 </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">

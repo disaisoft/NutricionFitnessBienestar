@@ -30,7 +30,7 @@ and open the template in the editor.
                                     <a class="nav-link" href="index.php">Inicio<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Login.php">Login</a>
+                                    <a class="nav-link" href="QuienesSomos.php">Quienes Somos</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,7 +44,7 @@ and open the template in the editor.
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="QuienesSomos.php">Quienes Somos</a>
+                                    <a class="nav-link " href="Login.php">Login</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link " href="Registro.php">Registro</a>
@@ -60,6 +60,29 @@ and open the template in the editor.
                 </div>
             </nav>
         </header><br>
+        <section>
+                 <div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/banner4.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/banner5.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/banner9.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+        </section><br>
         
         
         
