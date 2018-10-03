@@ -11,10 +11,10 @@ and open the template in the editor.
         <title>Nutrición - Fitness - Bienestar</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/estilos_index.css">
+        <link rel="stylesheet" href="css/estilos-nutricion.css">
         
     </head>
-    <body>
+    <body class="bg-color">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light barranav">
                 <a class="navbar-brand" href="index.php">
@@ -83,6 +83,11 @@ and open the template in the editor.
                     </a>
                 </div>
         </section><br>
+        <div>
+            <article>
+                <h1 class="bg-color">ESTO ES UNA PRUEBA!!</h1>
+            </article>
+        </div>
         
         
         

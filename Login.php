@@ -60,6 +60,42 @@ and open the template in the editor.
             </nav>
         </header><br>
         
+        <section>
+                <div class="container">
+                 <div class="row">
+                   <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                     <div class="card card-signin my-5">
+                       <div class="card-body">
+                         <h5 class="card-title text-center">Iniciar Sesión</h5>
+                         <form class="form-signin">
+                           <div class="form-label-group">
+                             <label for="inputEmail">Correo Electronico</label>
+                             <input type="email" id="inputEmail" class="form-control" placeholder="Direccion de Correo" required autofocus>
+                             
+                           </div><br>
+
+                           <div class="form-label-group">
+                             <label for="inputPassword">Contraseña</label>
+                             <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                             
+                           </div>
+
+                           <div class="custom-control custom-checkbox mb-3">
+                             <input type="checkbox" class="custom-control-input" id="customCheck1">
+                             <label class="custom-control-label" for="customCheck1">Recordar Contraseña</label>
+                           </div>
+                           <button class="btn btn-lg btn btn-success btn-block text-uppercase btncolorboton" type="submit">Iniciar</button>
+                           <hr class="my-4">
+                           <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                           <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                         </form>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+        </section>
+        
         <footer>
             <div class="container style-footer">
                 <h1>&copy Derechos Reservados</h1>        

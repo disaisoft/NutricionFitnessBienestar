@@ -70,14 +70,14 @@ and open the template in the editor.
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="nombre">Nombre</label>
-                                        <input type="text" name="nombre" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ingresa tu Nombre">
+                                        <input type="text" name="nombre" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ingresa tu Nombre" required="">
                                         <small id="nombre" class="form-text text-muted">Sus datos nunca seran compartidos!</small>
                                     </div>                      
                                 </div>    
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="apellido">Apellido</label>
-                                        <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Ingresa tu Apellido">
+                                        <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Ingresa tu Apellido" required="">
                                     </div>
                                 </div>  
                             </div>
@@ -86,13 +86,13 @@ and open the template in the editor.
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="telefono">Telefono</label>
-                                            <input type="text" class="form-control" id="telefono" placeholder="Ingresa tu Telefono">
+                                            <input type="text" class="form-control" id="telefono" placeholder="Ingresa tu Telefono" required="">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="email">Email</label>
-                                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu Email">
+                                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu Email" required="">
                                         </div>
                                     </div>
                                 </div>
