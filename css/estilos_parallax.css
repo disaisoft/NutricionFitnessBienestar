@@ -4,9 +4,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 03-oct-2018, 13:44:53
+    Created on : 10-oct-2018, 14:40:17
     Author     : hpp
 */
+
 .barranav{
     background: linear-gradient(#4CAF50,#212121 );
 }
@@ -30,18 +31,24 @@ and open the template in the editor.
 .bg-color{
     background: linear-gradient(#ffffff,#8ccd99 );
 }
-/*DESDE ACA EMPIEZAN LOS ESTILOS PARA EL BLOG*/
+/*DESDE ACA EMPIEZAN LOS ESTILOS PARA EL FONDO DE LA PAGINA*/
 body{
-    background:url(Smoothies_mini.jpg) ;
-    background-repeat: ;
-    background-size: ;
-    
+    background:url(../img/Smoothies_mini.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-position:0,0 ;
     background-attachment: fixed;
     
     font-family:helvetiva, arial, sans-serif;
-    line-height: 20px;
-    
+    line-height: 20px;    
 }
 .parrafo{
-    color: green;
+    color: red;
+}
+p{
+    color: black;
+}
+.cuadro{
+    background: linear-gradient(#4CAF50,#212121 );
+      
 }

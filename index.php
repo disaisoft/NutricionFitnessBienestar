@@ -11,10 +11,12 @@ and open the template in the editor.
         <title>Nutrición - Fitness - Bienestar</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/estilos-nutricion.css">
+        <link rel="stylesheet" href="css/estilos_parallax.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/main.js"> </script>
         
     </head>
-    <body class="bg-color">
+    <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light barranav">
                 <a class="navbar-brand" href="index.php">
@@ -61,6 +63,7 @@ and open the template in the editor.
             </nav>
         </header><br>
         <section>
+            <div>
                  <div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -82,10 +85,69 @@ and open the template in the editor.
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+            </div> 
+            
+            //DESDE ACA EMPIEZA TODO EL TEXTO QUE LLEVA EL SITIO WEB!
+            
+            <div class="container">
+                <article class="cuadro">
+                    <h2 class="parrafo">La Buena Alimentación</h2>
+                    <hr>
+                        <p>
+                            Una alimentación saludable consiste en ingerir una variedad de alimentos que te brinden los nutrientes que necesitas para mantenerte sana, sentirte bien y tener energía. Estos nutrientes incluyen las proteínas, los carbohidratos, las grasas, el agua, las vitaminas y los minerales.
+                            La nutrición es importante para todos. Combinada con la actividad física y un peso saludable, la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable. Si tienes antecedentes de cáncer de mama o estás en tratamiento, la buena alimentación es especialmente importante para ti. Lo que comes puede influir en tu sistema inmunitario, tu estado de ánimo y tu nivel de energía.
+                           
+                        </p>      
+                </article><br><br><br>
+                <article class="cuadro">
+                    <h2>La Buena Alimentación</h2>
+                    <hr>
+                        <p>
+                            Una alimentación saludable consiste en ingerir una variedad de alimentos que te brinden 
+                            los nutrientes que necesitas para mantenerte sana, sentirte bien y tener energía. 
+                            Estos nutrientes incluyen las proteínas, los carbohidratos, las grasas, el agua,
+                            las vitaminas y los minerales.
+                            La nutrición es importante para todos. Combinada con la actividad física y un peso saludable,
+                            la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable. 
+                            Si tienes antecedentes de cáncer de mama o estás en tratamiento, la buena alimentación es especialmente importante para ti.
+                            Lo que comes puede influir en tu sistema inmunitario, tu estado de ánimo y tu nivel de energía.
+                            Ningún alimento o dieta puede impedir la aparición del cáncer de mama. 
+                            Si bien los investigadores aún están estudiando los efectos de comer alimentos
+                            no saludables (en inglés) en el riesgo de tener cáncer de mama y su recurrencia,
+                            lo que sí sabemos es que el sobrepeso (en inglés) es un factor de riesgo, tanto
+                            de la primera aparición del cáncer de mama como de su recurrencia. En esta sección
+                            puedes aprender a comer de una forma que mantenga tu cuerpo lo más sano posible.
+                            Lee la información sobre los grupos de alimentos, los nutrientes, cómo crear un
+                            plan de alimentación saludable, cómo calcular las porciones y cómo disfrutar de los alimentos sin comer de más.
+                        </p>      
+                </article><br><br><br>
+                <article class="cuadro">
+                    <h2>La Buena Alimentación</h2>
+                    <hr>
+                        <p>
+                            Una alimentación saludable consiste en ingerir una variedad de alimentos que te brinden los nutrientes que necesitas para mantenerte sana, sentirte bien y tener energía. Estos nutrientes incluyen las proteínas, los carbohidratos, las grasas, el agua, las vitaminas y los minerales.
+                            La nutrición es importante para todos. Combinada con la actividad física y un peso saludable, la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable. Si tienes antecedentes de cáncer de mama o estás en tratamiento, la buena alimentación es especialmente importante para ti. Lo que comes puede influir en tu sistema inmunitario, tu estado de ánimo y tu nivel de energía.
+                            Ningún alimento o dieta puede impedir la aparición del cáncer de mama. Si bien los investigadores aún están estudiando los efectos de comer alimentos no saludables (en inglés) en el riesgo de tener cáncer de mama y su recurrencia, lo que sí sabemos es que el sobrepeso (en inglés) es un factor de riesgo, tanto de la primera aparición del cáncer de mama como de su recurrencia. En esta sección puedes aprender a comer de una forma que mantenga tu cuerpo lo más sano posible.
+                            Lee la información sobre los grupos de alimentos, los nutrientes, cómo crear un plan de alimentación saludable, cómo calcular las porciones y cómo disfrutar de los alimentos sin comer de más.
+                        </p>      
+                </article><br><br><br>
+                <article class="cuadro">
+                    <h2>La Buena Alimentación</h2>
+                    <hr>
+                        <p>
+                            Una alimentación saludable consiste en ingerir una variedad de alimentos que te brinden los nutrientes que necesitas para mantenerte sana, sentirte bien y tener energía. Estos nutrientes incluyen las proteínas, los carbohidratos, las grasas, el agua, las vitaminas y los minerales.
+                            La nutrición es importante para todos. Combinada con la actividad física y un peso saludable, la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable. Si tienes antecedentes de cáncer de mama o estás en tratamiento, la buena alimentación es especialmente importante para ti. Lo que comes puede influir en tu sistema inmunitario, tu estado de ánimo y tu nivel de energía.
+                            Ningún alimento o dieta puede impedir la aparición del cáncer de mama. Si bien los investigadores aún están estudiando los efectos de comer alimentos no saludables (en inglés) en el riesgo de tener cáncer de mama y su recurrencia, lo que sí sabemos es que el sobrepeso (en inglés) es un factor de riesgo, tanto de la primera aparición del cáncer de mama como de su recurrencia. En esta sección puedes aprender a comer de una forma que mantenga tu cuerpo lo más sano posible.
+                            Lee la información sobre los grupos de alimentos, los nutrientes, cómo crear un plan de alimentación saludable, cómo calcular las porciones y cómo disfrutar de los alimentos sin comer de más.
+                        </p>      
+                </article><br><br><br>
+                
+            </div>
         </section><br>
         <div>
             <article>
-                <h1 class="bg-color">ESTO ES UNA PRUEBA!!</h1>
+                <h1 class="bg-color">DESEAS: Bajar de peso? Mejorar Tu Digestion ? Ganar Masa Muscular ?
+                    <h2>n/a</h2></h1>
             </article>
         </div>
         

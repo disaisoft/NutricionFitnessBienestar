@@ -11,7 +11,9 @@ and open the template in the editor.
         <title>Login</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/estilos_index.css">
+        <link rel="stylesheet" href="css/estilos_parallax.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/main.js"> </script>
     </head>
     <body>
         <header>
